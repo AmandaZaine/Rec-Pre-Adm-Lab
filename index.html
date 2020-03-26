@@ -3,13 +3,14 @@
     <head>
         <link href="style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
     </head>
 
     <body onload="addEvent()">
 
         <header>
             <h4>Bem vinda(o) ao </h4>
-            <h1>"Jogo do Milhão"</h1>
+            <h1>"Quiz"</h1>
         </header>
     
         <section>             
@@ -21,13 +22,79 @@
                     </form>
                     <button id="butForm">Jogar</button>
                 </fieldset>
-                 </section>
+        </section>
 
         <section>
-            <h2 id="welcome"></h2>
+            <h2 id="welcome"></h2>            
+            <h4 id="gameTheme"></h4>
+        </section>
+
+        <section id="selectGame" style="visibility: hidden">
+            
+            <button id="gameOne">Tema 1</button>
+            <button id="gameTwo">Tema 2</button>
+
+            <!--onclick="window.location.href='themetwo.html'"-->
+
         </section>
               
         <script src="main.js"> </script>
         
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--
+       
+        <h1 id="nome-jogador" class="segundoTitulo"></h1>
+        <h2 id="nao-jogar" class="segundoTitulo"></h2>
+       
+        <section class="caixa">
+            <span class="resposta-correta"> Respostas Corretas
+                <div id="resposta-correta-1"></div>
+            </span>
+
+            <span class="resposta-errada"> Respostas Erradas
+                <div id="resposta-errada-1"></div>
+            </span>
+        </section>
+        -->
