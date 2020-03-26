@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+
+    <body onload="addEvent()">
+
+        <header>
+            <h4>Bem vinda(o) ao </h4>
+            <h1>"Jogo do Milhão"</h1>
+        </header>
+    
+        <section>             
+                <fieldset>
+                    <form id="gameRegistration" name="gameRegistration" method="POST" action="">
+                        <label for="nameForm">Insira seu nome para jogar:</label>
+                        <input id="nameForm" type="text" name="userName" placeholder="Digite seu nome" autofocus required> 
+                        <br>
+                    </form>
+                    <button id="butForm">Jogar</button>
+                </fieldset>
+                 </section>
+
+        <section>
+            <h2 id="welcome"></h2>
+        </section>
+              
+        <script src="main.js"> </script>
+        
+    </body>
+</html>
