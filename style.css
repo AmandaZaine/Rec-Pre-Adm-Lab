@@ -6,12 +6,10 @@ body{
     background-repeat: no-repeat;
 }
 
-.allQuestions{
+#allQuestions{
     display: block;
 }
 
-
-
-
-
-
+#showFinalAnswer{
+    display: none;
+}
