@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+    </head>
+
+    <body onload="eventAnswers()">
+
+        <header>
+            <h2>Quizz de Tema 1</h2>            
+        </header>
+
+        <section id="allQuestions">
+        <form>
+            <fieldset>
+                <legend>Primeira pergunta:</legend>                
+                    <label>                    
+                        <input id="right1a" type="radio" name="question1" value="answerA1"> answerA1
+                        <br>
+                    </label>
+                    <label>
+                        <input id="wrong1b" type="radio" name="question1" value="answerB1"> answerB1
+                        <br>
+                    </label>
+                    <label>
+                        <input id="wrong1c" type="radio" name="question1" value="answerC1"> answerC1
+                        <br>
+                    </label>                
+            </fieldset>
+
+            <fieldset>
+                <legend>Segunda pergunta:</legend>                
+                    <label>                    
+                        <input id="right2a" type="radio" name="question2" value="answerA2"> answerA2
+                        <br>
+                    </label>
+                    <label>
+                        <input id="wrong2b" type="radio" name="question2" value="answerB2"> answerB2
+                        <br>
+                    </label>
+                    <label>
+                        <input id="wrong2c" type="radio" name="question2" value="answerC2"> answerC2
+                        <br>
+                    </label>                
+            </fieldset>
+
+            <fieldset>
+                <legend>Terceira pergunta:</legend>                
+                    <label>                    
+                        <input id="right3a" type="radio" name="question3" value="answerA3"> answerA3
+                        <br>
+                    </label>
+                    <label>
+                        <input id="wrong3b" type="radio" name="question3" value="answerB3"> answerB3
+                        <br>
+                    </label>
+                    <label>
+                        <input id="wrong3c" type="radio" name="question3" value="answerC3"> answerC3
+                        <br>
+                    </label>                
+            </fieldset>
+                <br>
+            
+        </form>
+        <button id="sendAnswers">Enviar respostas</button>
+        </section>
+
+        <section class="showFinalAnswer">
+            <span> Respostas Corretas
+                <div id="rightAnswers"></div>
+            </span>
+
+            <span> Respostas Erradas
+                <div id="wrongAnswers"></div>
+            </span>
+        </section>
+          
+              
+        <script src="main.js"> </script>        
+    </body>
+</html>
