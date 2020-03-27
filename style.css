@@ -1,0 +1,17 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(#FEFEFE, #888888);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.allQuestions{
+    display: block;
+}
+
+
+
+
+
+
